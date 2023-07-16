@@ -24,6 +24,10 @@ const app = Vue.createApp({
 			this.x = e.offsetX;
 			this.y = e.offsetY;
 		},
+		toggleIsFavBook(book) {
+			console.log(book);
+			book.isFav = !book.isFav;
+		},
 	},
 });
 

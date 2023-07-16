@@ -4,12 +4,9 @@ const app = Vue.createApp({
 			url: 'http://www.thenetninja.co.uk',
 			showBooks: true,
 			books: [
-				{
-					title: 'name of the wind1',
-					author: 'patrick',
-				},
-				{title: 'name of the wind2', author: 'patrick'},
-				{title: 'name of the wind3', author: 'patrick'},
+				{title: 'name of the wind1', author: 'patrick', img: 'assets/1.jpg', isFav: true},
+				{title: 'name of the wind2', author: 'patrick', img: 'assets/2.jpg', isFav: false},
+				{title: 'name of the wind3', author: 'patrick', img: 'assets/3.jpg', isFav: true},
 			],
 		};
 	},

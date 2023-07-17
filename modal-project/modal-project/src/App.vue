@@ -5,7 +5,7 @@
 			<Modal :header="header" :text="text" theme="sale" @close="toggleModal" />
 		</div>
 	</div>
-	<button @click="toggleModal">Show Modal</button>
+	<button @click.alt="toggleModal">Show Modal (alt)</button>
 </template>
 
 <script>
